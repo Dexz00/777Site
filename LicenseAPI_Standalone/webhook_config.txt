@@ -1,0 +1,105 @@
+🔗 CONFIGURAÇÃO DO WEBHOOK
+
+Para configurar o webhook e receber alertas de segurança:
+
+## 1. Discord Webhook (Recomendado)
+1. Vá para seu servidor Discord
+2. Canal → Configurações → Integrações → Webhooks
+3. Crie um novo webhook
+4. Copie a URL do webhook
+5. Configure a variável de ambiente:
+   ```bash
+   set WEBHOOK_URL=https://discord.com/api/webhooks/SEU_WEBHOOK_AQUI
+   ```
+
+## 2. Telegram Bot (Alternativa)
+1. Crie um bot no @BotFather
+2. Obtenha o token do bot
+3. Crie um canal e adicione o bot
+4. Use a URL: https://api.telegram.org/bot{TOKEN}/sendMessage
+
+## 3. Configuração no Código
+Altere esta linha no Program.cs:
+```csharp
+var webhookUrl = Environment.GetEnvironmentVariable("WEBHOOK_URL") ?? 
+                 "https://discord.com/api/webhooks/SUA_URL_AQUI";
+```
+
+## 4. O que será monitorado:
+✅ Todos os logins (sucesso/falha)
+✅ Geração de licenças
+✅ Validação de licenças
+✅ Tentativas de acesso não autorizado
+✅ IP, User-Agent, Headers
+✅ Timestamp de todas as ações
+
+## 5. Exemplo de alerta Discord:
+🚨 **API Access Alert**
+**IP:** 192.168.1.100
+**Action:** LOGIN_SUCCESS
+**User:** DexzD7
+**Time:** 2024-12-01 15:30:45 UTC
+
+## 6. Segurança:
+- O webhook é opcional (não quebra a API se não configurar)
+- Todos os dados são enviados de forma segura
+- IPs são capturados corretamente mesmo com proxy/VPN 
+
+## 🛡️ **Sistema de Proteção Completo:**
+
+### **🔗 Webhook de Segurança:**
+- ✅ **Monitoramento total** de todos os acessos
+- ✅ **Alertas em tempo real** para Discord/Telegram
+- ✅ **Captura de IP real** (mesmo com proxy/VPN)
+- ✅ **User-Agent e Headers** completos
+- ✅ **Timestamps precisos** de todas as ações
+
+### **🚨 Alertas Monitorados:**
+- **LOGIN_SUCCESS** - Login bem-sucedido
+- **LOGIN_FAILED** - Tentativa de login falhada
+- **LICENSE_GENERATED** - Nova licença criada
+- **LICENSE_VALIDATED** - Licença usada com sucesso
+- **LICENSE_INVALID** - Tentativa de usar licença inexistente
+- **LICENSE_ALREADY_USED** - Tentativa de reutilizar licença
+- **UNAUTHORIZED_ACCESS** - Acesso não autorizado
+
+### **📊 Informações Capturadas:**
+- **IP Address** (real, mesmo com proxy)
+- **User-Agent** (navegador/dispositivo)
+- **Headers** (Referer, Origin, etc.)
+- **Timestamp** (hora exata)
+- **Usuário** (quem fez a ação)
+- **Dados da ação** (licença, tipo, etc.)
+
+## 🚀 **Como configurar:**
+
+### **Opção 1: Script Automático**
+```bash
+setup_webhook.bat
+```
+
+### **Opção 2: Manual**
+1. Crie webhook no Discord
+2. Configure variável de ambiente:
+   ```bash
+   set WEBHOOK_URL=https://discord.com/api/webhooks/SUA_URL
+   ```
+
+## 📱 **Exemplo de Alerta Discord:**
+```
+🚨 **API Access Alert**
+**IP:** 192.168.1.100
+**Action:** LOGIN_SUCCESS
+**User:** DexzD7
+**Time:** 2024-12-01 15:30:45 UTC
+**User-Agent:** Mozilla/5.0...
+```
+
+## 🔒 **Proteção Real:**
+- **Visibilidade total** de quem acessa sua API
+- **Detecção de ataques** em tempo real
+- **Logs completos** para auditoria
+- **Alertas instantâneos** no seu Discord/Telegram
+- **Captura de IP real** mesmo com VPN/proxy
+
+Agora você tem controle total e visibilidade completa de quem está acessando sua API! 🛡️ 

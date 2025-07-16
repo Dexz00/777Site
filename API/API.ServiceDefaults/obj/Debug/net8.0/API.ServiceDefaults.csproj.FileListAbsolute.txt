@@ -1,0 +1,12 @@
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\bin\Debug\net8.0\API.ServiceDefaults.deps.json
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\bin\Debug\net8.0\API.ServiceDefaults.dll
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\bin\Debug\net8.0\API.ServiceDefaults.pdb
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.AssemblyInfo.cs
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.dll
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\refint\API.ServiceDefaults.dll
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\API.ServiceDefaults.pdb
+C:\Users\Dexz\source\repos\WinFormsApp1\API\API.ServiceDefaults\obj\Debug\net8.0\ref\API.ServiceDefaults.dll

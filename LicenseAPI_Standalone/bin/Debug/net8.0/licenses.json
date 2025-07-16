@@ -1,0 +1,65 @@
+[
+  {
+    "Key": "LIC-20250716090616-7266",
+    "Type": "",
+    "CreatedAt": "2025-07-16T09:06:16.9454321Z",
+    "Used": true,
+    "UsedAt": "2025-07-16T09:07:03.0256861Z",
+    "UsedBy": "Dexz",
+    "Expiration": "2025-08-15T09:06:16.9455307Z",
+    "HWID": null,
+    "Blocked": false,
+    "IsBanned": false,
+    "User": "Dexz",
+    "History": [
+      {
+        "Timestamp": "2025-07-16T09:06:16.94582Z",
+        "EventType": "CREATED",
+        "Details": "Licen\u00E7a criada (expira: 2025-08-15)",
+        "PerformedBy": "DexzD7"
+      },
+      {
+        "Timestamp": "2025-07-16T09:07:03.0256872Z",
+        "EventType": "VALIDATED",
+        "Details": "Licen\u00E7a validada e usada por Dexz (HWID: F4C9DE21A6FF6D4DE3D2A04B7075E7A70CB6DA6AA0CA6F48D12DC879DAC34210)",
+        "PerformedBy": "Dexz"
+      },
+      {
+        "Timestamp": "2025-07-16T09:07:54.538676Z",
+        "EventType": "BLOCKED",
+        "Details": "Licen\u00E7a bloqueada/banida",
+        "PerformedBy": "API"
+      },
+      {
+        "Timestamp": "2025-07-16T09:08:19.8324698Z",
+        "EventType": "UNBLOCKED",
+        "Details": "Licen\u00E7a desbloqueada/desbanida",
+        "PerformedBy": "API"
+      },
+      {
+        "Timestamp": "2025-07-16T09:09:39.2231085Z",
+        "EventType": "HWID_RESET",
+        "Details": "HWID resetado",
+        "PerformedBy": "API"
+      },
+      {
+        "Timestamp": "2025-07-16T09:09:41.7752116Z",
+        "EventType": "HWID_RESET",
+        "Details": "HWID resetado",
+        "PerformedBy": "API"
+      },
+      {
+        "Timestamp": "2025-07-16T09:09:47.3612791Z",
+        "EventType": "HWID_RESET",
+        "Details": "HWID resetado",
+        "PerformedBy": "API"
+      },
+      {
+        "Timestamp": "2025-07-16T09:09:59.1268775Z",
+        "EventType": "HWID_RESET",
+        "Details": "HWID resetado",
+        "PerformedBy": "API"
+      }
+    ]
+  }
+]
